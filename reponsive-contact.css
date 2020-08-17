@@ -1,0 +1,148 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .first-para{
+       width: 378px;
+        position: relative;
+        top: -25px;
+
+       
+    }
+    body{
+        background-image: url(hero_1.jpg);
+       
+    }
+    .form-control{
+        display: none;
+    }
+    .form-control-respo{
+    display:flex;
+    position: relative;
+   left: -100px;
+    width: 250px;
+    
+    }
+
+    .contact-info{
+        position: relative;
+        left: -560px;
+        top:-350px;
+        width: 128px;
+
+    }
+    .First-name{
+        position: relative;
+        left: -75px;
+    }
+    .Surname{
+        position: relative;
+        left: -75px;
+    }
+   .banner{
+       display: none;
+   }
+   .About-Us{
+       position: relative;
+       left:-40px;
+   }
+   .Contact-Us{
+    position: relative;
+    left:-40px;
+
+   }
+  /* .banner-responsive{
+     display: grid;  
+     
+   }
+    .
+   
+   
+    .text{position: relative;
+    left: 350px;
+    
+    }*/
+    .banner-responsive,ul{
+        display: list-item;
+
+    }
+    .part2{
+        position: relative;
+        left: -490px;
+        top: -300px;
+        
+    }
+     .part3{
+     display: inline-block;
+        position: relative;
+        left: -998px;
+        text-align: center;
+    }
+    .icons{
+        display: flex;
+        position: relative;
+        bottom: -70px;   
+
+    }
+    .text{position: relative;
+       top:-156px;
+        
+        }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px and max-width: 800px) {
+    .first-para{
+        position: relative;
+        text-align: center;
+        left:-10px;
+        top:-10px;
+    }
+    .main{
+        position: relative;
+        left: -90px;
+    }
+    .form-control{
+        width: 380px;
+    }
+    .contact-info{position: relative;
+    left: -320px;
+    top:-350px;
+    }
+    footer{
+        width:100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .part3{
+        position: relative;
+        left: -650px;
+        top:-110px;
+        display: flex;
+    }
+    .Connect{
+        display: none;
+        
+    }
+    .text{
+        position: relative;
+        top: -100px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}

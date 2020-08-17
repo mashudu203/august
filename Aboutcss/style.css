@@ -1,0 +1,73 @@
+body{
+    
+  
+    background-color: white;
+    
+}
+
+
+#about{
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+.banner{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_content{
+    width: 250px;
+    margin: 1%;
+    background-color: white;
+    border: 4px black solid;
+}
+
+
+
+.banner_content .desc{
+    padding: 10px;
+    color: gainsboro;
+}
+
+h1{
+	text-transform:uppercase;
+    font-size:20px;
+    color: black;
+}
+
+
+h2{
+	text-transform:uppercase;
+    font-size:30px;
+    color: black;
+}
+
+.banner p{
+    font-size: 40px;
+	max-width: 600px;
+    margin: auto;
+    color: crimson;
+    
+}
+
+
+
+h3{
+	text-transform:uppercase;
+    font-size:20px;
+    color: black;
+   
+
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+}
